@@ -6,9 +6,9 @@ Bu repo (Patika)[www.patika.dev] Front-End eğitiminde oluşturduğum ilk repo. 
 
 Öncelikle projeyi clonelayalım.(Buraya sizin reponuzdan aldığınız link gelecek.)
 
-"""
+'''
 git clone https://github.com/khanoguz/kodluyoruzIlkRepo.git
-"""
+'''
 
 ## Usage
 
@@ -16,9 +16,9 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açalım.
 
 Linux için:
 
-"""
+'''
 cd kodluyoruzIlkRepo
-"""
+'''
 
 ## Contributing
 

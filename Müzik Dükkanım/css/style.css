@@ -1,0 +1,17 @@
+
+header{
+    text-align: center;
+}
+
+.header{
+    color: red;
+}
+.text-purple{
+    color: purple;
+}
+.text-yellow{
+    color: goldenrod;
+}
+.table{
+    list-style-position: inside;
+}

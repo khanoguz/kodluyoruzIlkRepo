@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 100px;
+}
+p{
+    margin: 0;
+}
+.search-bar{
+    background-color: #EEEEEE;
+}
+.search-bar input{
+    margin: 0 auto;
+}
+
+.first-box{
+    background-color: #7EE5DA;
+}
+.second-box{
+    background-color: #56dfd1;
+}
+
+.third-box{
+    background-color: #33d6c6;
+}
+
+.second-box a{
+    font-size: 14px;
+}
+.cards{  
+    margin: 0.1%;
+    width: 33.1%;
+    height: 100px;
+    float: left;
+    padding-top: 1%;
+}
+.cards a{
+    display: block;
+    color: blue;
+}
+.text-box{
+    width: 280px;
+}
+
+.footer{
+    margin: 9%;
+}

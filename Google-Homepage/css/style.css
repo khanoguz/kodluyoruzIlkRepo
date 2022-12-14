@@ -24,6 +24,7 @@
   }
   .pic.headerli img{
     border-radius: 50px;
+    max-width: 40px;
   }
 
   .buttons{
@@ -201,4 +202,7 @@
     float: left;
     margin-left: 0px;
   }
-
+  .voice-logo{
+    max-width: 30px;
+    padding-left: 505px;
+  }

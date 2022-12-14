@@ -202,7 +202,11 @@
     float: left;
     margin-left: 0px;
   }
+  
+  .voice{
+    display: flex;
+    float: left;
+  }
   .voice-logo{
     max-width: 30px;
-    padding-left: 505px;
   }

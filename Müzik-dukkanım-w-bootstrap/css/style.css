@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+h2{
+    color: rgb(228, 165, 5);
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+.navbar-brand, h1{
+    color: red;
+}
+.nav-item{
+    color: aliceblue;
+}
+
+.info-p{
+    text-align: left;
+}
+.info-h1{
+    color: purple;
+}
+.info-h2{
+    text-align: left;
+    color: goldenrod;
+}
+
+.card-title{
+    color: purple;
+    text-align: left;
+}
+.card-text{
+    background-color: gray;
+    color: white;
+    padding: 2%;
+    border-radius: 8px;  
+    display: inline;
+    float:left;
+}
+
+.card{
+    margin: 2%;
+}

@@ -1,0 +1,51 @@
+[22, 27, 16, 2, 18, 6]
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+1) ilk olarak 22 yi alır ve bir sonraki ile karsılastırır.
+    [22 | 27, 16, 2, 18, 6]
+    ikinci elemandan kücük oldugu için yerinde sabit kalır ve çizgimiz bir yana kayar.
+    [22, 27| 16, 2, 18, 6]
+
+2) 27 sayısı ile bir sonraki eleman olan 16'yi karsilastirir. 
+    16, 27 den kücük oldugu için 27'nin soluna atılır.
+    [22, 16,27| 2, 18, 6]
+    ve 16, 22 den de kücük oldugu için onun da soluna atilir.
+    [16,22, 27| 2, 18, 6]
+
+3) 27 sayısı 2 ile karsilastirir.
+    2 27 den kücük oldugu için onun soluna, daha sonra 22 den kucuk oldugu için onun soluna,
+        ve son olarak 16 dan da kücük oldugu için onun soluna atilir.
+        [2, 16, 22, 27| 18, 6]
+
+4)18 sayısı 27 ve 22 ile karşılastırılır. kucuk oldugu için ikisinin soluna atilir.
+    16 ile karsilastirildiginda buyuk oldugu için aynı yerinde kalır
+            [2, 16, 18, 22, 27|, 6]
+
+5)son olarak 6 sayısı 27, 22, 18, 16 ile karsilastirilir ve kucuk oldugu için soluna atilir.
+    2 ile karsilastirildiginda kucuk oldugu için sagında kalır.
+    [2, 6, 16, 18, 22, 27]
+
+---------------------------------
+18 sayısı worst case girebilir. cunku dizinin en sonuna yakındır.
+
+ve bu sıralamanın Big O Notationu (n x (n-1))/2 den n^2 dir.
+
+---------------
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+1)ilk olarak dizideki tüm elemanları gezerek min elemanı bulur = 2.
+2)en kücük elemanla ilk elemanı yer degistirir.
+[2,3,5,8,7,9,4,15,6]
+3)daha sonra ikinci elemandan baslayarak tüm elemanları tarayıp en kucuk elemanı bulur ve ikinci elemanla yer degistirilir. = 3
+    burada zaten ikinci eleman ikinci en kucuk oldugu için sabit kalir.
+    [2,3,5,8,7,9,4,15,6]
+4)3. elemandan baslayarak tüm elemanlar taranır ve en kucuk eleman bulunur.=4
+    ucuncu elemanla yer degistirilir.
+    [2,3,4,8,7,9,5,15,6]
+
+5)4. elemandan baslayarak tüm elemanlar taranır ve en kucuk eleman bulunur. = 5
+    4. eleman ile yer degistirilir.
+    [2,3,4,5,7,9,8,15,6]
+
+.. boyle boyle devam eder.

@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+    1) root 6 alabilir..
+    2)sıradan gidilirse 7 6'dan büyüktür ve sagına girer.
+    3)5 6'dan kucuktur ve soluna girer.
+    4)1 6'dan ve 5'ten kucuktur. 5'in soluna girer.
+    5)8 6'dan ve 7'den büyüktür. 7'nin sağına gider.
+    6)0 6, 5, ve 1 den kucuktur. 1'in soluna gider.
+    7)9 6,7, ve 8den buyuktur. 8 in sagina gider.
+    8)4 6 ve 5 ten kucuktur. 5'İn solunda 1 vardır 1 den buyuktur. 1 ın sagında 3 vardır 3 ten büyük oldugu için sagına gider.
+    9)2 6 ve 5 ten kucuktur. 5'İn solunda 1 vardır 1 den buyuktur. 1 ın sagında 3 vardır. 3 ten kucuk oldugu için solna gider.
+    
+
+         6
+        / \
+       5   7
+      /     \     
+     1       8   
+    / \       \
+   0   3       9
+      / \
+     2   4

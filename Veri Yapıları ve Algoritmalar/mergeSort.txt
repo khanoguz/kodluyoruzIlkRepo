@@ -1,0 +1,26 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1)oncelikle dizi tek elemana düsene kadar 2'ye bölünür.
+    [16,21,11], [8,12,22]
+    [16,21], [11], [8,12], [22]
+    [16], [21], [11], [8], [12], [22]
+
+2)daha sonra elemanlar karsılastirilarak birlestirmeye baslanır.
+    [16], [21], [11], [8], [12], [22]
+    [16,21], [8,11], [12,22]
+
+3) dizilerin ilk elemanlarından baslayarak karsilastirma yapılır.
+    ilk 16 mi kucuktur 8 mi bakılir. = 8
+    daha sonra 16 mi kucuktur 11 mı bakılır = 11
+    daha sonra 16 ve 21 gelir.
+    [8,11,16,21] [12,22]
+4)daha sonra 8 ile 12 karsilastirilir. = 8
+    12 ile 11 karsilastirilir = 11
+    12 ile 16 karsilastirilir. = 12
+    16 ile 22 karsilastirilir.. = 16
+    21 ile 22 karsilastirilir.. = 21 ve en son 22 gelir
+    ve birlestirme islemi yapılır.
+
+=[8,11,12,16,21,22]
+
+Big O notation'u (nlogn) olur
